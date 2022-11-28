@@ -1,0 +1,65 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/Rockpool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  line-height: 1.5;
+  padding: 260px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+header a {
+  background: white;
+  color: #272044;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  header {
+    line-height: 1;
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 7px;
+  }
+}
