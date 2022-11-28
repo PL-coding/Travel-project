@@ -5,13 +5,13 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/Rockpool.jpg");
+    url("../images/Rockpool header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   line-height: 1.5;
-  padding: 260px 0;
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -40,6 +40,10 @@ header a {
   margin-top: 32px;
   padding: 16px 32px;
   text-decoration: none;
+}
+
+section {
+  padding: 100px;
 }
 
 footer {
@@ -74,7 +78,18 @@ footer ul {
 .grid {
   display: grid;
   grid-gap: 20px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+#rockpools {
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -101,5 +116,13 @@ footer ul {
 
   footer {
     padding: 25px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 30px;
   }
 }
