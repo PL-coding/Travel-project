@@ -235,6 +235,10 @@ img {
   grid-row: 1 / 2;
 }
 
+#sunset {
+  height: 600px;
+}
+
 #sup {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
